@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+
+# Environment
+.env
+
+# Data
+data/pdfs/*
+data/processed/*
+data/vector_store/*
+!data/pdfs/.gitkeep
+!data/processed/.gitkeep
+!data/vector_store/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
